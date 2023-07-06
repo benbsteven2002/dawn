@@ -646,8 +646,8 @@
       "name": "Özel Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "Özel Liquid",
-          "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama parçacıkları veya başka Liquid kodu ekleyin."
+          "label": "Liquid kodu",
+          "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama parçacıkları veya başka bir kod ekleyin."
         }
       },
       "presets": {
@@ -997,9 +997,6 @@
         },
         "image_2": {
           "label": "İkinci görsel"
-        },
-        "color_scheme": {
-          "info": "Kapsayıcı gösterildiğinde görünür."
         },
         "stack_images_on_mobile": {
           "label": "Mobilde görselleri üst üste ekle"
@@ -1829,15 +1826,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Özel liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Özel liquid",
-              "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama parçacıkları veya başka Liquid kodu ekleyin."
-            }
-          }
-        },
         "rating": {
           "name": "Ürün puanı",
           "settings": {
@@ -2513,14 +2501,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Özel liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Özel liquid"
-            }
-          }
-        },
         "rating": {
           "name": "Ürün puanı",
           "settings": {
@@ -2673,6 +2653,9 @@
             "label": "Sağ"
           },
           "label": "Mobil içerik hizalaması"
+        },
+        "color_scheme": {
+          "info": "Kapsayıcı gösterildiğinde görünür."
         }
       },
       "blocks": {
