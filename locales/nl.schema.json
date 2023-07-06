@@ -359,13 +359,10 @@
             "label": "Geen"
           },
           "options__2": {
-            "label": "Verticale lift"
+            "label": "3D-lift"
           },
           "label": "Zweef-effect",
-          "info": "Wordt gebruikt voor kaarten en knoppen.",
-          "options__3": {
-            "label": "3D-lift"
-          }
+          "info": "Wordt gebruikt voor kaarten en knoppen."
         }
       }
     }
@@ -437,9 +434,6 @@
           "label": "Gedrag van afbeeldingen",
           "options__3": {
             "label": "Vaste positie op de achtergrond"
-          },
-          "options__4": {
-            "label": "Inzoomen bij scrollen"
           }
         }
       }
@@ -473,24 +467,11 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Aankondigingen automatisch draaien"
+          "label": "Dia's automatisch draaien"
         },
         "change_slides_speed": {
           "label": "Wissel dia's elke"
-        },
-        "header__1": {
-          "content": "Pictogrammen voor social media",
-          "info": "Als je socialmedia-accounts wilt weergeven, koppel je ze in de [thema-instellingen](/editor?context=theme&category=social%20media)."
-        },
-        "header__2": {
-          "content": "Aankondigingen"
-        },
-        "show_social": {
-          "label": "Pictogrammen op bureaublad weergeven"
         }
-      },
-      "presets": {
-        "name": "Aankondigingsbalk"
       }
     },
     "collage": {
@@ -646,8 +627,8 @@
       "name": "Aangepaste Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "Liquid-code",
-          "info": "Voeg app-fragmenten of andere code toe om geavanceerde aanpassingen aan te maken."
+          "label": "Aangepaste Liquid",
+          "info": "Voeg app-fragmenten of andere Liquid-code toe om geavanceerde aanpassingen aan te maken."
         }
       },
       "presets": {
@@ -980,12 +961,6 @@
         },
         "enable_language_selector": {
           "label": "Taalkiezer inschakelen"
-        },
-        "header__1": {
-          "content": "Kleur"
-        },
-        "menu_color_scheme": {
-          "label": "Kleurschemamenu"
         }
       }
     },
@@ -997,6 +972,9 @@
         },
         "image_2": {
           "label": "Tweede afbeelding"
+        },
+        "color_scheme": {
+          "info": "Zichtbaar wanneer de container wordt weergegeven."
         },
         "stack_images_on_mobile": {
           "label": "Afbeeldingen stapelen op mobiel"
@@ -1642,7 +1620,7 @@
             },
             "show_gift_card_recipient": {
               "label": "Formulier voor gegevens van ontvanger weergeven voor cadeaubonnen",
-              "info": "Hiermee kunnen kopers op een geplande datum een cadeaubon met een persoonlijk bericht sturen. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Klanten kunnen cadeaubonnen rechtstreeks naar de ontvanger laten sturen op een geplande datum met een persoonlijk bericht. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1824,6 +1802,15 @@
             },
             "page": {
               "label": "Pagina"
+            }
+          }
+        },
+        "custom_liquid": {
+          "name": "Aangepaste liquid",
+          "settings": {
+            "custom_liquid": {
+              "label": "Aangepaste liquid",
+              "info": "Voeg app-fragmenten of andere Liquid-code toe om geavanceerde aanpassingen aan te maken."
             }
           }
         },
@@ -2501,6 +2488,14 @@
             }
           }
         },
+        "custom_liquid": {
+          "name": "Aangepaste liquid",
+          "settings": {
+            "custom_liquid": {
+              "label": "Aangepaste liquid"
+            }
+          }
+        },
         "rating": {
           "name": "Productbeoordeling",
           "settings": {
@@ -2653,9 +2648,6 @@
             "label": "Rechts"
           },
           "label": "Uitlijning van content op mobiel"
-        },
-        "color_scheme": {
-          "info": "Zichtbaar wanneer de container wordt weergegeven."
         }
       },
       "blocks": {

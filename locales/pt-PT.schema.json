@@ -359,13 +359,10 @@
             "label": "Nenhum"
           },
           "options__2": {
-            "label": "Elevação vertical"
+            "label": "Elevação 3D"
           },
           "label": "Efeito ao passar o rato",
-          "info": "Afeta cartões e botões.",
-          "options__3": {
-            "label": "Elevação 3D"
-          }
+          "info": "Afeta cartões e botões."
         }
       }
     }
@@ -437,9 +434,6 @@
           "label": "Comportamento da imagem",
           "options__3": {
             "label": "Posição de fundo fixa"
-          },
-          "options__4": {
-            "label": "Ampliar ao rodar a roda do rato"
           }
         }
       }
@@ -473,24 +467,11 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Rotação automática de comunicados"
+          "label": "Rotação automática de diapositivos"
         },
         "change_slides_speed": {
           "label": "Mudar diapositivos a cada"
-        },
-        "header__1": {
-          "content": "Ícones de redes sociais",
-          "info": "Para apresentar as suas contas de redes sociais, associe-as nas [definições do tema](/editor?context=theme&category=social%20media)."
-        },
-        "header__2": {
-          "content": "Comunicados"
-        },
-        "show_social": {
-          "label": "Mostrar ícones no computador"
         }
-      },
-      "presets": {
-        "name": "Barra de comunicado"
       }
     },
     "collage": {
@@ -646,8 +627,8 @@
       "name": "Liquid personalizado",
       "settings": {
         "custom_liquid": {
-          "label": "Código Liquid",
-          "info": "Adicione fragmentos de aplicação ou outro código para criar personalizações avançadas."
+          "label": "Liquid personalizado",
+          "info": "Adicione fragmentos de aplicação ou outro código Liquid para criar personalizações avançadas."
         }
       },
       "presets": {
@@ -980,12 +961,6 @@
         },
         "enable_language_selector": {
           "label": "Ativar seletor de idioma"
-        },
-        "header__1": {
-          "content": "Cor"
-        },
-        "menu_color_scheme": {
-          "label": "Esquema de cores do menu"
         }
       }
     },
@@ -997,6 +972,9 @@
         },
         "image_2": {
           "label": "Segunda imagem"
+        },
+        "color_scheme": {
+          "info": "Visível quando o recetor é exibido."
         },
         "stack_images_on_mobile": {
           "label": "Empilhar imagens em dispositivos móveis"
@@ -1631,8 +1609,8 @@
               "info": "Utilizando os métodos de pagamento disponíveis na sua loja, os clientes poderão ver a sua opção preferida, como o PayPal ou Apple Pay. [Saiba mais](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
-              "label": "Apresentar o formulário de informações do destinatário para cartões de oferta",
-              "info": "Permite aos compradores enviar cartões de oferta numa data agendada juntamente com uma mensagem pessoal. [Saber mais](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "label": "Apresentar o formulário de informações do destinatário para produtos de cartões de oferta",
+              "info": "Os produtos de cartões de oferta podem, opcionalmente, ser enviados a um destinatário numa data agendada com uma mensagem pessoal. [Saber mais](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
             }
           },
           "name": "Botão de compra"
@@ -1826,6 +1804,15 @@
         },
         "description": {
           "name": "Descrição"
+        },
+        "custom_liquid": {
+          "name": "Liquid personalizado",
+          "settings": {
+            "custom_liquid": {
+              "label": "Liquid personalizado",
+              "info": "Adicione fragmentos de aplicação ou outro código Liquid para criar personalizações avançadas."
+            }
+          }
         },
         "rating": {
           "name": "Classificação do produto",
@@ -2501,6 +2488,14 @@
             }
           }
         },
+        "custom_liquid": {
+          "name": "Liquid personalizado",
+          "settings": {
+            "custom_liquid": {
+              "label": "Liquid personalizado"
+            }
+          }
+        },
         "rating": {
           "name": "Classificação do produto",
           "settings": {
@@ -2653,9 +2648,6 @@
             "label": "Direita"
           },
           "label": "Alinhamento do conteúdo em dispositivos móveis"
-        },
-        "color_scheme": {
-          "info": "Visível quando o recetor é exibido."
         }
       },
       "blocks": {
